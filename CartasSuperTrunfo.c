@@ -8,6 +8,7 @@ int main(){
     char cidade1[20], cidade2[20];
     int populacao1, populacao2, PointTurist1, PointTurist2;
     float area1, area2, pib1, pib2;
+    float densidadeP1, densidadeP2, PibPC1, PibPC2;
 
 //Bloco de informações da primeira carta 
     printf("Digite uma letra de 'A' a 'H' para representar um estado: ");
@@ -31,8 +32,11 @@ int main(){
     printf("Digite o PIB da cidade: ");
     scanf("%f", &pib1);
 
-//Bloco de informações da segunda carta
+    //Cálculos da primeira carta
+    densidadeP1 = (float) populacao1 / area1;
+    PibPC1 = (float) pib1 / populacao1;
 
+//Bloco de informações da segunda carta
     printf("Digite novamente uma letra de 'A' a 'H' para representar um estado: ");
     scanf(" %c", &estado2);
     
@@ -54,6 +58,10 @@ int main(){
     printf("Digite o PIB da segunda cidade: ");
     scanf("%f", &pib2);
 
+    //Cálculos da segunda carta
+    densidadeP2 = (float) populacao2 / area2;
+    PibPC2 = (float) pib2 / populacao2;
+
 //Bloco de exibição das informações coletadas do usuario
     //Primeira Carta
     printf("Carta 1: \n");
@@ -64,6 +72,8 @@ int main(){
     printf("Área: %.2f km² \n", area1);
     printf("PIB: %.2f Bilhões de reais \n", pib1);
     printf("Número de Pontos Turísticos: %d \n", PointTurist1);
+    printf("Densidade Populacional: %.2f hab/km²\n", densidadeP1);
+    printf("PIB per Capita: %.2f reais", PibPC1);
 
     printf("\n"); //esse printf foi somente para pular a linha e deixar no formato certo
     //Segunda Carta
@@ -75,8 +85,10 @@ int main(){
     printf("Área: %.2f km² \n", area2);
     printf("PIB: %.2f Bilhões de reais \n", pib2);
     printf("Número de Pontos Turísticos: %d \n", PointTurist2);
+    printf("Densidade Populacional: %.2f hab/km²\n", densidadeP2);
+    printf("PIB per Capita: %.2f reais", PibPC2);
 
-
+    
     return 0;
 
     
