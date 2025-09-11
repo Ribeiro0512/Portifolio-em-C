@@ -20,6 +20,13 @@ O famoso **Pedra, Papel e Tesoura** contra o computador.
 - Tratamento de empate, vitória e derrota  
 - Estrutura organizada com `switch-case` e `if/else`  
 
+### 🔹 Menu de Gerenciamento do Estudante
+Um programa interativo que simula um pequeno sistema de gerenciamento acadêmico.  
+- ✅ Calcular a **média de duas notas** (com validação de 0 a 10)  
+- ✅ Determinar o **status do aluno** (Aprovado ou Reprovado)  
+- ✅ Encerrar o programa de forma organizada  
+- Uso de `switch-case`, `if/else` e **operador ternário** para simplificar condições  
+
 ---
 
 ## ⚙️ Tecnologias usadas
