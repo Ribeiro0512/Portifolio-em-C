@@ -27,12 +27,28 @@ Um programa interativo que simula um pequeno sistema de gerenciamento acadêmico
 - ✅ Encerrar o programa de forma organizada  
 - Uso de `switch-case`, `if/else` e **operador ternário** para simplificar condições  
 
+### 🔹 Xadrez (simulação de movimentos)
+Um projeto desenvolvido para simular os movimentos de **peças de xadrez** no console.  
+- Implementa os movimentos de **Torre, Bispo, Rainha e Cavalo** usando **estruturas de repetição diferentes**:
+  - `while` para Torre  
+  - `recursão` para Bispo e Torre  
+  - `for` para Cavalo  
+- Uso de **funções** para organizar o código e simular cada movimento  
+- Aprendizado de **conceitos avançados de lógica**:
+  - Recursão para repetição de movimentos  
+  - Controle de fluxo com loops aninhados  
+  - Simulação de movimento bidimensional (tabuleiro xadrez)  
+- Projeto focado em **pensamento lógico e estrutural**, não em interface gráfica  
+- ✅ Resultado: uma simulação funcional dos movimentos das peças, permitindo entender como cada peça se move e reforçar lógica de programação em C  
+
+> 💡 Com este projeto aprendi a pensar de forma mais estruturada, organizar funções, controlar loops e recursão, além de aplicar conceitos de **lógica de programação avançada** de forma prática.
+
 ---
 
 ## ⚙️ Tecnologias usadas
 - Linguagem **C**  
 - Compilador **GCC**  
-- Editor: VS Code 
+- Editor: VS Code  
 
 ---
 
@@ -42,12 +58,5 @@ Este repositório é um espaço para:
 - Evoluir em **C**  
 - Criar pequenos projetos práticos  
 - Montar um **portfólio** para compartilhar minha jornada 🚀  
-
----
-
-## 🚧 Próximos passos
-- Adicionar mais funcionalidades ao **Super Trunfo**  
-- Criar novos mini-jogos em C  
-- Explorar estruturas como **loops, arrays e funções**  
 
 ---
